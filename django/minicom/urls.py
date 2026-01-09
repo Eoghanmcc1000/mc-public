@@ -24,6 +24,6 @@ urlpatterns = [
     # re_path(r'^blog/', include('blog.urls')),
     # path('blog/', include('blog.urls')),
 
-    path('foo', api.verify),
-    path('bar', api.verify)
+    path('foo', api.create_message),
+    path('bar', api.get_messages)
 ]
